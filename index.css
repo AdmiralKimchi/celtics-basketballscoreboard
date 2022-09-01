@@ -1,0 +1,64 @@
+@font-face {
+    src: url(./CursedTimerUlil-Aznm.ttf);
+    font-family: CursedTimer ;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: lightgray;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color:#1B244A ;
+    background-size: contain;
+    color: white;
+    width: 575px;
+    height: 385px;
+    margin: 20px auto 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://s1.ticketm.net/dam/a/158/e8147ef7-aaf2-4be3-be49-815e08d32158_1340101_TABLET_LANDSCAPE_LARGE_16_9.jpg) 
+}
+
+
+h3 {
+    font-size: 40px;
+    margin: 70px 0 20px;
+}
+
+
+.score-box {
+    color: #f9c74f;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 90px;
+    font-family: CursedTimer;
+}
+
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+
+.btn {
+    width: 45px;
+    height: 45px;
+    background-color: #f8ffe5;
+    color: #38b000;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: CursedTimer ;
+    font-size: 18px;
+} 
